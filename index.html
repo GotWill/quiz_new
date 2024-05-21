@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="start-quiz">
+      <div class="initial-quiz">
+        <h1>QUIZ</h1>
+        <div class="box">
+          <img src="assets/img/icon.png" alt="" />
+          <p>
+            Dia da saúde mental<br />
+            e autocuidado.
+          </p>
+        </div>
+      </div>
+      <div class="content-info">
+        <p>
+          <span>“Desafie seu conhecimento </span>em<br />
+          saúde mental respondendo as<br />
+          perguntas e ganhe prêmios rodando<br />
+          nossa roleta de brindes!”
+        </p>
+      </div>
+      <div class="content-form">
+        <div class="content-input">
+          <input type="email" placeholder="Nome" id="name" />
+          <input type="text" placeholder="CPF" id="cpf" />
+          <button id="save-name" type="submit">Salvar</button>
+        </div>
+        <img src="assets/img/bg.png" alt="" />
+      </div>
+      <div class="btn-initial">
+        <button id="start">Iniciar</button>
+      </div>
+    </div>
+
+    <div id="quiz">
+      <div class="initial-quiz" id="initial-quiz-p1">
+        <h1>QUIZ</h1>
+        <div class="box">
+          <img src="assets/img/icon.png" alt="" />
+          <p>
+            Dia da saúde mental<br />
+            e autocuidado.
+          </p>
+        </div>
+      </div>
+
+      <div class="quiz" quiz-id="1">
+        <div class="flex-header">
+          <div class="rounded">1</div>
+          <div class="flex">
+            <h3>O que é ansiedade?</h3>
+            <p>
+              A resposta natural do corpo ao estresse, caracterizada por
+              preocupação excessiva e tensão.
+            </p>
+          </div>
+        </div>
+        <div class="flex-buttons">
+          <div class="flex">
+            <div class="rounded">A</div>
+            <button points="1">CERTO</button>
+          </div>
+          <div class="flex">
+            <div class="rounded">B</div>
+            <button points="0">ERRADO</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="quiz" quiz-id="2">
+        <div class="flex-header">
+          <div class="rounded">2</div>
+          <div class="flex">
+            <h3>
+              Quais são alguns sinais <br />
+              de depressão?
+            </h3>
+            <p>
+              Alguns sinais incluem tristeza persistente, perda de interesse em
+              atividades antes apreciadas, fadiga e alterações no sono e no
+              apetite.
+            </p>
+          </div>
+        </div>
+        <div class="flex-buttons">
+          <div class="flex">
+            <div class="rounded">A</div>
+            <button points="1">CERTO</button>
+          </div>
+          <div class="flex">
+            <div class="rounded">B</div>
+            <button points="0">ERRADO</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="quiz" quiz-id="3">
+        <div class="flex-header">
+          <div class="rounded">3</div>
+          <div class="flex">
+            <h3>
+              Como podemos promover
+              <br />
+              a saúde mental?
+            </h3>
+            <p>
+              Envolve práticar e manter relacionamentos saudáveis, negligência
+              emocional, pressão social e autocuidado.
+            </p>
+          </div>
+        </div>
+        <div class="flex-buttons">
+          <div class="flex">
+            <div class="rounded">A</div>
+            <button points="0">CERTO</button>
+          </div>
+          <div class="flex">
+            <div class="rounded">B</div>
+            <button points="1">ERRADO</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="quiz" quiz-id="4">
+        <div class="flex-header">
+          <div class="rounded">4</div>
+          <div class="flex">
+            <h3>O que é autocompaixão?</h3>
+            <p>
+              Autocompaixão é ser gentil e compreensivo consigo mesmo em
+              momentos de dificuldade.
+            </p>
+          </div>
+        </div>
+        <div class="flex-buttons">
+          <div class="flex">
+            <div class="rounded">A</div>
+            <button points="1">CERTO</button>
+          </div>
+          <div class="flex">
+            <div class="rounded">B</div>
+            <button points="0">ERRADO</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="quiz" quiz-id="5">
+        <div class="flex-header">
+          <div class="rounded">5</div>
+          <div class="flex">
+            <h3>
+              Quais são algumas estratégias <br />
+              para lidar com o estresse?
+            </h3>
+            <p>
+              Para lidar com o estresse algumas atitudes como meditar,
+              procrastinar, ruminar negativamente, isolamento social.
+            </p>
+          </div>
+        </div>
+        <div class="flex-buttons">
+          <div class="flex">
+            <div class="rounded">A</div>
+            <button points="0">CERTO</button>
+          </div>
+          <div class="flex">
+            <div class="rounded">B</div>
+            <button points="1">ERRADO</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="quiz" quiz-id="6">
+        <div class="flex-header">
+          <div class="rounded">6</div>
+          <div class="flex">
+            <h3>O que é saúde mental?</h3>
+            <p>
+              Saúde mental refere-se ao bem-estar emocional, psicológico e
+              social de uma pessoa.
+            </p>
+          </div>
+        </div>
+        <div class="flex-buttons">
+          <div class="flex">
+            <div class="rounded">A</div>
+            <button points="1">CERTO</button>
+          </div>
+          <div class="flex">
+            <div class="rounded">B</div>
+            <button points="0">ERRADO</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="quiz" quiz-id="7">
+        <div class="flex-header">
+          <div class="rounded">7</div>
+          <div class="flex">
+            <h3>O que é autoestima?</h3>
+            <p>
+              Autoestima é a avaliação subjetiva que uma pessoa faz de si mesma,
+              incluindo julgar sua autoimagem e realizar a autodesvalorização.
+            </p>
+          </div>
+        </div>
+        <div class="flex-buttons">
+          <div class="flex">
+            <div class="rounded">A</div>
+            <button points="1">CERTO</button>
+          </div>
+          <div class="flex">
+            <div class="rounded">B</div>
+            <button points="0">ERRADO</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="quiz" quiz-id="8">
+        <div class="flex-header">
+          <div class="rounded">8</div>
+          <div class="flex">
+            <h3>
+              Quais são alguns sinais de que alguém<br />
+              pode estar enfrentando problemas de<br />
+              saúde mental?
+            </h3>
+            <p>
+              Alguns sinais de problemas de saúde mental incluem mudanças
+              repentinas de humor, isolamento social, facilidade para realizar
+              atividades cotidianas e melhorias no sono ou na alimentação.
+            </p>
+          </div>
+        </div>
+        <div class="flex-buttons">
+          <div class="flex">
+            <div class="rounded">A</div>
+            <button points="1">CERTO</button>
+          </div>
+          <div class="flex">
+            <div class="rounded">B</div>
+            <button points="0">ERRADO</button>
+          </div>
+        </div>
+      </div>
+
+      <div id="foother">
+        <div class="box-result">
+          <h4>Resultado: <span id="value">8</span></h4>
+        </div>
+
+        <div class="flex">
+          <img src="assets/img/medalha.png" alt="" />
+          <div class="flex-items">
+            <button id="rolet">ROLETA</button>
+            <p id="text-award">PREMIO: <span id="value-award"></span></p>
+            <button id="btn-text">Chá ou picolé</button>
+          </div>
+        </div>
+      </div>
+
+      <div id="ranking">
+        <table>
+          <thead>
+            <th>Nome</th>
+            <th>Pontos</th>
+            <th>Data</th>
+          </thead>
+          <tbody>
+            
+          </tbody>
+        </table>
+      </div>
+
+      <div class="bg"></div>
+    </div>
+  </body>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+  <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.11/jquery.mask.min.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script>
+    $("#cpf").mask("999.999.999-99");
+  </script>
+</html>

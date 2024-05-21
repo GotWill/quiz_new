@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Boehringer Forward Head Md';
+    src: url('BoehringerForwardHead-Md.woff2') format('woff2'),
+        url('BoehringerForwardHead-Md.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Boehringer Forward Head';
+    src: url('BoehringerForwardHead-Bd.woff2') format('woff2'),
+        url('BoehringerForwardHead-Bd.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Boehringer Forward Head';
+    src: url('BoehringerForwardHead.woff2') format('woff2'),
+        url('BoehringerForwardHead.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
